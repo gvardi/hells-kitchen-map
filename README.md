@@ -5,7 +5,8 @@ This package contains an interactive map of Hell's Kitchen buildings with financ
 ## Files Included:
 
 - **hells_kitchen_map.html** - The main interactive map file
-- **hells_kitchen_financing_report_20250721_114540.csv** - Building data used in the map
+- **hells_kitchen_financing_report_20250722_163235.csv** - Latest building data used in the map (308 buildings)
+- **hells_kitchen_financing_report_latest.csv** - Copy of the latest data for easy access
 - **input/** - Shapefile data for district boundaries
   - HellsKitchen.* - Hell's Kitchen boundary
   - CouncilDistrict.* - Council District boundary  
@@ -29,6 +30,11 @@ This package contains an interactive map of Hell's Kitchen buildings with financ
   - Blue dollar signs = Buildings with mortgage financing
   - Purple dollar signs = Buildings with deed financing
   - Green dollar signs = Buildings with other financing types
+- **Building Information**: Each marker shows detailed information including:
+  - Building area and rentable square footage
+  - Number of floors and average rentable sqft per floor
+  - Year built and last known alteration
+  - Financing details and financial metrics
 - **District Boundaries**: 
   - Red = Hell's Kitchen
   - Orange = Council District
@@ -66,4 +72,4 @@ The map uses NYC Open Data including:
 
 
 
-Generated: July 21, 2025 
+Generated: July 22, 2025 
